@@ -169,6 +169,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &183961211 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7681593449125670603, guid: 2ec04b0d720b444a898cd73b4b0f90e6, type: 3}
+  m_PrefabInstance: {fileID: 6324966843238855654}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &245963551
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -276,6 +281,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 8571888703491105073, guid: 74c04f671b51948ef98f4e4419505cfa, type: 3}
+  powerupPrefab: {fileID: 183961211}
+  enemyCount: 0
+  waveNumber: 1
 --- !u!4 &476620918
 Transform:
   m_ObjectHideFlags: 0
